@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, label{
+    text-align: center;
+}
+
+i, span{
+    color: yellow;
+}
+form{
+    text-align: center;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+
+table{
+    width: 400px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 200px;
+    border-left: none;
+    border-right: none;
+}
+.btn{
+    background: goldenrod;
+    border: none;
+}

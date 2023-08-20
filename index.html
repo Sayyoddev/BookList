@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Booklist App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="mt-4 w-50 mx-auto">
+        <h1><i class='bx bxs-book-open'></i> <span>Kitoblar</span>Ruyxati</h1>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Sarlavha</label> <br>
+                <input type="text" id="title" />
+            </div>
+
+            <div class="form-group">
+                <label for="author">Muallif</label> <br>
+                <input type="text" id="author" />
+            </div>
+            <div class="form-group">
+                <label for="year">Yili</label> <br>
+                <input type="text" id="year" />
+            </div> <br>
+            <input type="submit" value="Kitob qushing" />
+        </form> <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sarlavha</th>
+                    <th>Muallif</th>
+                    <th>Yili</th>
+    
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
